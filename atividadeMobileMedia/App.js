@@ -26,9 +26,9 @@ export default function App() {
       setMedia(resultado.toFixed(2));
   
       if (resultado >= 6) {
-        Alert.alert(`PASSOU!`, `MÉDIA: ${resultado.toFixed(2)}`);
+        Alert.alert(`PASSOU!!`, `MÉDIA: ${resultado.toFixed(2)}`);
       } else {
-        Alert.alert(`NÃO PASSOU!`,`MÉDIA: ${resultado.toFixed(2)}`);
+        Alert.alert(`NÃO PASSOU!!`,`MÉDIA: ${resultado.toFixed(2)}`);
       }
   
     } else {
